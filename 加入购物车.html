@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Title</title>
+    <style>
+        #body{
+            width: 470px;
+            height:630px;
+            border: solid 1px black;
+            margin-left: 33%;
+        }
+        #body .head{
+            width: 470px;
+            height: 110px;
+        }
+        #body .wrap .img{
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+        }
+        #body .main{
+            width: 348px;
+            height: 72px;
+            position: relative;
+            left: 120px;
+            bottom:80px;
+        }
+        #body .main .price{
+            color: red;
+        }
+        #body .main .stock{
+            font-size: 13px;
+        }
+        #body .color{
+            height: 20px;
+            color: #999999;
+            margin-left: 10px;
+        }
+        #body .tit1{
+            width: 270px;
+            height: 33px;
+            background-color: #cccccc;
+            margin-left: 10px;
+            margin-top: 5px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        #body .tit1 .img1{
+            width: 24px;
+            height: 24px;
+            position: relative;
+            top: 5px;
+            left: 10px;
+        }
+        #body .tit1 .span1{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        #body .tit2{
+            width: 300px;
+            height: 33px;
+            background-color: #cccccc;
+            border-radius: 10px 10px 10px 10px;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        #body .tit2 .img2{
+            width: 24px;
+            height: 24px;
+            position: relative;
+            top: 5px;
+            left: 10px;
+        }
+        #body .tit2 .span2{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        #body .checked{
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        #body .check{
+            color: #999999;
+            line-height: 10px;
+        }
+        #body .items{
+            width: 78px;
+            height: 32px;
+            border: solid 1px red;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 33px;
+            color: red;
+        }
+        #body .radio{
+            width: 17px;
+            height: 17px;
+            border: solid 1px gainsboro;
+            border-radius: 50%;
+            float: right;
+        }
+
+        #body .numberline{
+            margin-top: 50px;
+            margin-left: 10px;
+            color: #999999;
+        }
+
+        #body .nav{
+            width: 470px;
+            height: 45px;
+            background-color: #FF0036;
+            position: absolute;
+            bottom: 80px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            line-height: 10px;
+        }
+    </style>
+</head>
+<body>
+       <div id="body">
+            <div class="head">
+               <div class="wrap">
+                   <img class="img" src="Ti/O1CN01KfOSuh1JoqmAiLhbn_!!1707201076.jpg_200x200Q50s50.jpg">
+               </div>
+
+                <div class="main">
+                      <div class="price">
+                          <span>￥9.8-12.8</span>
+                      </div>
+                      <div class="stock">库存 4402件</div>
+                      <div class="stock">请选择： 颜色分类</div>
+                </div>
+            </div>
+
+           <div class="color">
+               颜色分类
+           </div>
+           <div class="tit1">
+               <img class="img1" src="Ti/O1CN01KfOSuh1JoqmAiLhbn_!!1707201076.jpg_200x200Q50s50.jpg">
+               <span class="span1">经典黑 【标准版】有声按键/线长1.2m</span>
+           </div>
+           <div class="tit2">
+               <img class="img2" src="Ti/O1CN01KfOSuh1JoqmAiLhbn_!!1707201076.jpg_200x200Q50s50.jpg">
+               <span class="span2">经典黑 【升级版】无声按键/线长1.5m/七彩灯光</span>
+           </div>
+
+           <div class="checked">
+                <span class="check">套餐类型</span>
+            </div>
+
+             <div class="items">
+                 <span class="">官方标配</span>
+             </div>
+
+             <h4 style="margin-left: 10px">特色服务</h4>
+
+              <div class="service" style="margin-left: 10px">
+                   <span style="font-size: 13px">意外保修二年￥10</span>
+                   <div class="radio"></div>
+              </div>
+           <div class="service" style="margin-left: 10px">
+               <span style="font-size: 13px">意外保修三年￥12</span>
+               <div class="radio"></div>
+           </div>
+           <div class="service" style="margin-left: 10px">
+               <span style="font-size: 13px">全面保修二年￥11</span>
+               <div class="radio"></div>
+           </div>
+           <div class="service" style="margin-left: 10px">
+               <span style="font-size: 13px">全面保修三年￥12</span>
+               <div class="radio"></div>
+           </div>
+
+           <div class="numberline">
+               <span >购买数量（每人限购5件）</span>
+               <div style="display: inline-block;margin-left: 180px">
+                   <button class="decrease disabled">-</button>
+                   <button class="decrease disabled">1</button>
+                   <button class="decrease disabled">+</button>
+               </div>
+           </div>
+           <div class="nav">
+               <p>确定</p>
+           </div>
+
+       </div>
+</body>
+</html>
